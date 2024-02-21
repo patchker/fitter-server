@@ -1,7 +1,7 @@
 <h1>Django Server for Gym and Diet Tracking Application</h1>
 
 <p>The application is available at the <a href="https://patchker.com/works/fitter/">link</a>.</p>
-<p>Client site code is available at the <a href="https://github.com/patchker/fitter-client">link</a>.</p>
+<p>Client side code is available at the <a href="https://github.com/patchker/fitter-client">link</a>.</p>
 
 <p>This repository houses the Django server component of our Gym and Diet Tracking Application, a powerful backend designed to support the comprehensive tracking of fitness and dietary progress. Built using Django, a high-level Python web framework, this server is engineered to provide robust data management, security, and scalability for the application.</p>
 
