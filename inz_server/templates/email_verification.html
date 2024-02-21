@@ -1,0 +1,61 @@
+<!-- email_verification.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        @font-face {
+            font-family: "Masque";
+  src:
+    url("MASQUE__.ttf") format("truetype")
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            text-align: center;
+            padding: 50px;
+        }
+        a {
+            background-color: #007bff;
+            color: #fdfdfd;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            text-align:center;
+
+        }
+        a:hover {
+            background-color: #0056b3;
+        }
+        h1 {
+            font-family: Masque;
+        }
+        #pozdrawiamy
+            {
+        margin-top:80px;
+        }
+        #container
+        {
+            margin:auto;
+            width:600px;
+        }
+        #ppp
+        {
+            margin-bottom:50px;
+        }
+
+
+    </style>
+</head>
+<body>
+<div id="container">
+<h1>Fitter</h1>
+    <p id="ppp">Proszę kliknąć na poniższy przycisk, aby zweryfikować swój adres e-mail:</p>
+    <a href="https://patchker.com/verify/{{ token }}">Zweryfikuj E-mail</a>
+<div id="pozdrawiamy">
+<p>Dziękujemy za wybranie Fitter!</p>
+    </div>
+</body>
+</div>
+</html>
